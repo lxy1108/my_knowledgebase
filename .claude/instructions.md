@@ -61,6 +61,8 @@ Content should be categorized based on existing directory structure:
 - `traditional_deep_learning/` - DL foundations and models
 - `others/` - Related domain knowledge
 
+**File Format**: All knowledge base contents must be written and stored as **markdown files (.md)**.
+
 Confirm with user before adding new categories.
 
 ### 5. Content Format Guidelines
