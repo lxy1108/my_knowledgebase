@@ -46,6 +46,44 @@
   - Discard changes in working directory
   - Equivalent to: `git checkout -- <file>`
 
+### File Operations
+
+- **`git rm <file>`**
+  - Remove files from the working tree and from the index
+  - Stages the file deletion for commit
+  - Variations:
+    - `git rm <file>` - Stage file for deletion
+    - `git rm -r <directory>` - Remove directory recursively
+    - `git rm --cached <file>` - Remove from index only, keep working file
+    - `git rm -f <file>` - Force removal, even if file has modifications
+
+- **`git mv <old> <new>`**
+  - Move or rename a file, directory, or symlink
+  - Stages both the deletion and addition for commit
+  - Equivalent to: `mv <old> <new>` + `git add <new>` + `git rm <old>`
+  - More efficient than manual move operations
+  - Automatically handles index updates
+
+**Common Use Cases:**
+
+**Remove file from repository but keep local copy:**
+```bash
+git rm --cached unwanted_file.txt
+git commit -m "Remove file from repository"
+```
+
+**Rename a file properly:**
+```bash
+git mv old_name.txt new_name.txt
+git commit -m "Rename file"
+```
+
+**Remove directory:**
+```bash
+git rm -r obsolete_directory/
+git commit -m "Remove obsolete directory"
+```
+
 ## Branching and Merging
 
 ### Branch Operations
