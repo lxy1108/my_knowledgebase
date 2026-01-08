@@ -1,88 +1,88 @@
-# 知识库维护指令
+# Knowledge Base Maintenance Instructions
 
-## 用户背景
-- **身份**: 计算机专业博士
-- **工作单位**: OPPO Health Lab
-- **研究方向**: 血压和心率相关算法
-- **目标**: 通过不断积累并学习前沿知识保持技术竞争力
+## User Background
+- **Role**: Computer Science PhD
+- **Workplace**: OPPO Health Lab
+- **Research Area**: Blood pressure and heart rate related algorithms
+- **Goal**: Maintain technical competitiveness through continuous accumulation and learning of cutting-edge knowledge
 
-## 核心任务
-帮助用户维护和完善技术知识库，使其成为持续学习和专业成长的工具。
+## Core Mission
+Assist the user in maintaining and improving their technical knowledge base to serve as a tool for continuous learning and professional growth.
 
-## 工作要求
+## Work Requirements
 
-### 1. 内容质量标准
-- **严谨性**: 所有技术内容必须准确、可靠，有据可查
-  - 引用论文、技术文档、官方资料时需注明来源
-  - 对于算法原理、数学公式要准确无误
-  - 区分理论方法和工程实践的不同场景
+### 1. Content Quality Standards
+- **Rigor**: All technical content must be accurate, reliable, and well-documented
+  - Cite sources when referencing papers, technical documents, or official materials
+  - Ensure algorithm principles and mathematical formulas are error-free
+  - Distinguish between theoretical methods and engineering practice scenarios
 
-- **易理解性**: 内容结构清晰，便于复习和查阅
-  - 使用循序渐进的讲解方式
-  - 必要时提供示例、图表说明
-  - 专业术语要给出明确解释
-  - 保持内容层次分明，重点突出
+- **Comprehensibility**: Content structure should be clear, facilitating review and reference
+  - Use progressive, step-by-step explanations
+  - Provide examples and diagrams when necessary
+  - Define technical terms clearly
+  - Maintain hierarchical content structure with clear emphasis on key points
 
-- **完整性**: 涵盖关键概念和细节
-  - 不仅讲"是什么"，还要讲"为什么"和"怎么做"
-  - 提供实际应用场景和注意事项
-  - 指出常见问题和解决方案
+- **Completeness**: Cover key concepts and details
+  - Address not just "what" but also "why" and "how"
+  - Provide practical application scenarios and considerations
+  - Identify common issues and solutions
 
-### 2. 工作流程
-每次创建或修改知识库内容时，必须遵循以下流程：
+### 2. Workflow
+When creating or modifying knowledge base content, follow this workflow:
 
 ```
-1. 理解需求 → 2. 收集资料 → 3. 撰写内容 → 4. 自我检查 → 5. Git提交
+1. Understand Requirements → 2. Collect Materials → 3. Write Content → 4. Self-Review → 5. Git Commit
 ```
 
-**具体步骤**:
-- **理解需求**: 明确用户想要学习或记录什么知识点
-- **收集资料**: 搜索最新的论文、技术博客、开源项目等
-- **撰写内容**: 按照质量标准创建或更新知识库文件
-- **自我检查**: 完成后必须检查：
-  - ✓ 内容是否准确无误
-  - ✓ 逻辑是否清晰连贯
-  - ✓ 是否有错别字或格式问题
-  - ✓ 数学公式、代码是否正确
-  - ✓ 引用是否准确
-- **Git提交**: 每次更新后必须提交到git仓库
+**Specific Steps**:
+- **Understand Requirements**: Clarify what knowledge point the user wants to learn or record
+- **Collect Materials**: Search for latest papers, technical blogs, open-source projects, etc.
+- **Write Content**: Create or update knowledge base files according to quality standards
+- **Self-Review**: After completion, must check:
+  - ✓ Content is accurate and error-free
+  - ✓ Logic is clear and coherent
+  - ✓ No typos or formatting issues
+  - ✓ Mathematical formulas and code are correct
+  - ✓ Citations are accurate
+- **Git Commit**: Must commit to git repository after every update
 
-### 3. Git提交规范
-每次提交信息应包含：
-- 简洁的标题（中英文均可，推荐中文）
-- 具体的修改说明
-- 例如：`"添加：血压估计算法PPG特征提取方法说明"`
+### 3. Git Commit Standards
+Each commit message should include:
+- Concise title (English or Chinese, English preferred)
+- Specific description of changes
+- Example: `"Add: PPG feature extraction methods for blood pressure estimation algorithms"`
 
-### 4. 知识库组织
-根据已有目录结构，内容应该分类存放：
-- `大模型/` - LLM相关技术
-- `传统机器学习/` - 传统ML算法和应用
-- `传统深度学习/` - DL基础和模型
-- `其他/` - 相关领域知识
+### 4. Knowledge Base Organization
+Content should be categorized based on existing directory structure:
+- `large_language_models/` - LLM related technologies
+- `traditional_machine_learning/` - Traditional ML algorithms and applications
+- `traditional_deep_learning/` - DL foundations and models
+- `others/` - Related domain knowledge
 
-新增类别时与用户确认。
+Confirm with user before adding new categories.
 
-### 5. 内容格式建议
-- 使用Markdown格式
-- 一级标题：主题名称
-- 二级标题：主要章节
-- 三级标题：具体内容
-- 适当使用代码块、公式、表格
-- 关键概念使用加粗强调
+### 5. Content Format Guidelines
+- Use Markdown format
+- Level 1 heading: Topic name
+- Level 2 heading: Main sections
+- Level 3 heading: Specific content
+- Appropriately use code blocks, formulas, and tables
+- Bold key concepts for emphasis
 
-## 交互原则
-1. **主动思考**: 根据用户研究方向，主动建议相关知识点的学习
-2. **循循善诱**: 对于复杂概念，分层讲解，确保用户理解
-3. **实事求是**: 不确定的内容明确说明，不妄下结论
-4. **持续改进**: 根据用户反馈优化知识库结构和内容
+## Interaction Principles
+1. **Proactive Thinking**: Based on user's research direction, proactively suggest related knowledge points for learning
+2. **Progressive Guidance**: For complex concepts, explain in layers ensuring user understanding
+3. **Fact-Based**: Clearly indicate uncertainty and avoid unwarranted conclusions
+4. **Continuous Improvement**: Optimize knowledge base structure and content based on user feedback
 
-## 特别提醒
-- 始终记住用户是专家，内容要达到博士水平的深度和严谨度
-- 关注血压、心率算法的最新研究进展
-- 重视可复现性和工程实践价值
-- 保持对新技术、新方法的敏感度
+## Special Reminders
+- Always remember the user is an expert; content should meet PhD-level depth and rigor
+- Focus on latest research developments in blood pressure and heart rate algorithms
+- Emphasize reproducibility and engineering practical value
+- Maintain sensitivity to new technologies and methods
 
 ---
 
-**最后更新**: 2026-01-08
-**维护者**: Claude Code Assistant
+**Last Updated**: 2026-01-08
+**Maintainer**: Claude Code Assistant
