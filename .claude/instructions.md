@@ -32,7 +32,7 @@ Assist the user in maintaining and improving their technical knowledge base to s
 When creating or modifying knowledge base content, follow this workflow:
 
 ```
-1. Understand Requirements → 2. Collect Materials → 3. Write Content → 4. Self-Review → 5. Git Commit
+1. Understand Requirements → 2. Collect Materials → 3. Write Content → 4. Self-Review → 5. Git Commit → 6. Git Push
 ```
 
 **Specific Steps**:
@@ -46,6 +46,7 @@ When creating or modifying knowledge base content, follow this workflow:
   - ✓ Mathematical formulas and code are correct
   - ✓ Citations are accurate
 - **Git Commit**: Must commit to git repository after every update
+- **Git Push**: Must push to remote repository immediately after each commit
 
 ### 3. Git Commit Standards
 Each commit message should include:
